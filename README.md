@@ -1,20 +1,19 @@
-# Générateur de mots de passe sécurisé
+# Nos chers donateurs
 
-L'objectif est de créer une petite application web permettant de générer des mots de passe sécurisés en fonction de la longueur choisie par l'utilisateur.
+L'objectif est de consommer une API d'utilisateurs via Strapi afin de créer une application web.
 
-<div align="center">
+<!-- <div align="center">
     <img src="./images/password-generator.svg" alt="password-generator.svg" style="width: 500px !important;">
-</div>
+</div> -->
 
 
 ## Contexte du projet
 
-Je suis formateur en développement web et je vais aborder des notions fondamentales telles que l'interaction JavaScript/HTML et la personnalisation de l'interface utilisateur.  
-J'ai besoin d'une application qui permet de générer un mot de passe aléatoire en fonction d'une longueur donnée par l'utilisateur, comprise entre 12 et 128 caractères.
+Je suis un développeur web qui vient d'intégrer une association dans un pays anglophone afin de créer et maintenir son site internet.
 
-L'utilisateur pourra interagir directement avec l'application via un bouton pour générer un mot de passe, ainsi qu'un champ de saisie pour définir la longueur souhaitée du mot de passe.
+Le site existe déjà et permet à l'association de récolter des dons, seulement le directeur de l'association souhaiterait avoir la possibilité de voir un historique des donateurs afin de pouvoir les remercier et de garder une trace de leur geste.
 
-À vous de jouer 😃!
+Ma mission est donc de créer une page web en utilisant les technologies déjà en place pour le site, quelques ressources et maquettes me sont données, il ne me reste plus qu'à me mettre au boulot !
 
 
 ## Modalités pédagogiques
