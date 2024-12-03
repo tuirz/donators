@@ -91,6 +91,9 @@ Ma mission est donc de créer une page web en utilisant les technologies déjà 
 - [Documentation Strapi](https://docs.strapi.io/dev-docs/intro)
 - [Qu'est-ce qu'une API ?](https://www.redhat.com/fr/topics/api/what-are-application-programming-interfaces)
 
+Des maquettes sont disponibles dans le dossier ```models```, avec un exemple de tri par montant donné, et un exemple de filtrage par genre.
+Libre à vous d'ajouter des options si vous le souhaitez.
+
 ## Auteurs, contributeurs
 
 - [Rémy Cottrez](https://github.com/RemyCTRZ)
