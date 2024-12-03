@@ -20,35 +20,38 @@ Ma mission est donc de créer une page web en utilisant les technologies déjà 
 
 ***Activité individuelle en mode collaboratif.***
 
-### Étape 1 : Création de l'interface utilisateur
+### Étape 1 : Installation et configuration des outils
+- Installer Strapi et le configurer pour consommer l'API dummy (randomuser).
+- Explorer la documentation de l'API pour comprendre les données fournies.
+- Consommer l'API de randomuser.
 
-- Implémentez une interface utilisateur simple avec un bouton pour générer un mot de passe et un champ d'entrée pour spécifier la longueur du mot de passe.
-- Ajoutez un conteneur pour afficher le mot de passe généré.
+### Étape 2 : Création de la structure de l'application web
+- Organiser les dossiers du projet : pages, components, styles, services (ou équivalent).
+- Créer un fichier pour la structure de base de la page (HTML/CSS), en respectant la maquette fournie.
 
-Exemples dans le dossier `models`.
+### Étape 3 : Intégration de l'API et affichage des données
+- Récupérer et afficher les données des donateurs sous forme de liste.
+- Ajouter une colonne "montant" avec un montant généré via Math.random().
 
-### Étape 2 : Logique de génération des mots de passe
+### Étape 4 : Création du menu de filtrage et tri
+- Implémenter un menu latéral pour :
+    - Afficher uniquement les donateurs hommes ou femmes.
+    - Trier par montant donné (croissant/décroissant).
+    - Trier par ordre alphabétique des prénoms.
 
-- Implémentez une fonction JavaScript pour générer un mot de passe aléatoire en fonction de la longueur définie par l'utilisateur.
-- Assurez-vous que le mot de passe contient des caractères variés : majuscules, minuscules, chiffres et caractères spéciaux.
-- Utilisez des méthodes JavaScript comme `Math.random()` et `charAt()` pour sélectionner aléatoirement des caractères dans une chaîne prédéfinie.
+### Étape 5 : Styling et respect de la maquette
+- Implémenter le style global (typographie, couleurs, espaces).
+- Assurer la responsivité de l'interface (desktop, tablette, mobile).
 
-### Étape 3 : Interaction et personnalisation
-
-- Connectez le bouton de génération de mot de passe avec la fonction JavaScript pour mettre à jour dynamiquement le mot de passe dans l'interface utilisateur lorsque l'utilisateur clique sur le bouton.
-- Ajoutez des contrôles pour définir les contraintes de longueur du mot de passe (entre 12 et 128 caractères).
-
-### Bonus
-
-- Ajoutez la possibilité de choisir différents types de caractères à inclure dans le mot de passe (chiffres, lettres, symboles).
 
 ### Deadline
 
-***1 jour***
+***5 jours***
 
 ## Modalités d'évaluation
 
 - Présentation devant les pairs.
+- Correction entre pairs à l'aide d'une grille d'évaluation.
 
 
 ## Livrables
@@ -58,7 +61,30 @@ Exemples dans le dossier `models`.
 
 ## Critères de performance
 
-- À définir
+- Ajoutez la grille d'évaluation ci-dessous dans le README de la personne que vous corrigez.
+- Pensez à compléter le ***nom de la personne corrigée*** et le ***nom du correcteur*** dans l'entête du tableau.
+- Indiquez le **nombre d'étoiles obtenues** (l'étoile d'une catégorie est obtenue si tous ses critères de performance sont validés).
+
+| *nom de la personne corrigée*          |                               | *nom du correcteur*       |
+| :---- | :----: | :---: |
+| Critères de performance                |                               | Remarques du correcteur   |
+| ***Interface utilisateur***            |                               |                           |
+| - Respect de la maquette               | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+| - Interface interactive                | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| ***Fonctionnalités***                  |                               |                           |
+| - Système de tri des donateurs         | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+| - Système de filtrage des donateurs    | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+| - API consommée pour les données       | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+| ***Code***                             |                               |                           |
+| - Organisation et lisibilité du code   | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+| - Respect des bonnes pratiques HTML/CSS/JS | <ul><li>- [ ] &nbsp;</li><ul> |                       |
+| - Commentaires dans le code            | <ul><li>- [ ] &nbsp;</li><ul> |                           |
+|                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
+
+**Nombre d'étoiles obtenues** : ⭐⭐⭐
+
 
 ## Ressources
 
