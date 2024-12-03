@@ -2,9 +2,9 @@
 
 L'objectif est de consommer une API d'utilisateurs via Strapi afin de créer une application web.
 
-<!-- <div align="center">
-    <img src="./images/password-generator.svg" alt="password-generator.svg" style="width: 500px !important;">
-</div> -->
+<div align="center">
+    <img src="./images/donators.webp" alt="donators" style="width: 500px !important;">
+</div>
 
 
 ## Contexte du projet
@@ -88,9 +88,10 @@ Ma mission est donc de créer une page web en utilisant les technologies déjà 
 
 ## Ressources
 
-- [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- [Documentation Strapi](https://docs.strapi.io/dev-docs/intro)
+- [Qu'est-ce qu'une API ?](https://www.redhat.com/fr/topics/api/what-are-application-programming-interfaces)
 
 ## Auteurs, contributeurs
 
-- [Nicolas Herbez](https://github.com/nicolas-herbez)
 - [Rémy Cottrez](https://github.com/RemyCTRZ)
+- [Nicolas Herbez](https://github.com/nicolas-herbez)
