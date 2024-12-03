@@ -1,6 +1,6 @@
 # Nos chers donateurs
 
-L'objectif est de consommer une API d'utilisateurs via Strapi afin de créer une application web.
+L'objectif est de consommer une API d'utilisateurs afin de créer une application web.
 
 <div align="center">
     <img src="./images/donators.webp" alt="donators" style="width: 500px !important;">
