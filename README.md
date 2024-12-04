@@ -22,9 +22,10 @@ Ma mission est donc de créer une page web en utilisant les technologies déjà 
 
 ### Étape 1 : Création de la structure de l'application web
 - Créer les fichiers pour l'HTML, le CSS et le JS de l'application.
+- Lier les différents fichiers
 
 ### Étape 2 : Intégration de l'API et affichage des données
-- Récupérer et afficher les données des donateurs sous forme de liste.
+- Récupérer et afficher les données des donateurs sous forme de liste et les afficher en front.
 - Ajouter un "montant" avec un montant généré via Math.random().
 
 ### Étape 3 : Création du menu de filtrage et tri
