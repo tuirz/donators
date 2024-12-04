@@ -67,9 +67,9 @@ Ma mission est donc de créer une page web en utilisant les technologies déjà 
 | - Interface interactive                | <ul><li>- [ ] &nbsp;</li><ul> |                           |
 |                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
 | ***Fonctionnalités***                  |                               |                           |
+| - API consommée pour les données       | <ul><li>- [ ] &nbsp;</li><ul> |                           |
 | - Système de tri des donateurs         | <ul><li>- [ ] &nbsp;</li><ul> |                           |
 | - Système de filtrage des donateurs    | <ul><li>- [ ] &nbsp;</li><ul> |                           |
-| - API consommée pour les données       | <ul><li>- [ ] &nbsp;</li><ul> |                           |
 |                                        | <ul><li>- [ ] ⭐</li><ul>     |                           |
 | ***Code***                             |                               |                           |
 | - Organisation et lisibilité du code   | <ul><li>- [ ] &nbsp;</li><ul> |                           |
