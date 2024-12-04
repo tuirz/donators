@@ -20,26 +20,20 @@ Ma mission est donc de créer une page web en utilisant les technologies déjà 
 
 ***Activité individuelle en mode collaboratif.***
 
-### Étape 1 : Installation et configuration des outils
-- Installer Strapi et le configurer pour consommer l'API dummy (randomuser).
-- Explorer la documentation de l'API pour comprendre les données fournies.
-- Consommer l'API de randomuser.
+### Étape 1 : Création de la structure de l'application web
+- Créer les fichiers pour l'HTML, le CSS et le JS de l'application.
 
-### Étape 2 : Création de la structure de l'application web
-- Organiser les dossiers du projet : pages, components, styles, services (ou équivalent).
-- Créer un fichier pour la structure de base de la page (HTML/CSS), en respectant la maquette fournie.
-
-### Étape 3 : Intégration de l'API et affichage des données
+### Étape 2 : Intégration de l'API et affichage des données
 - Récupérer et afficher les données des donateurs sous forme de liste.
-- Ajouter une colonne "montant" avec un montant généré via Math.random().
+- Ajouter un "montant" avec un montant généré via Math.random().
 
-### Étape 4 : Création du menu de filtrage et tri
+### Étape 3 : Création du menu de filtrage et tri
 - Implémenter un menu latéral pour :
     - Afficher uniquement les donateurs hommes ou femmes.
     - Trier par montant donné (croissant/décroissant).
     - Trier par ordre alphabétique des prénoms.
 
-### Étape 5 : Styling et respect de la maquette
+### Étape 4 : Styling et respect de la maquette
 - Implémenter le style global (typographie, couleurs, espaces).
 - Assurer la responsivité de l'interface (desktop, tablette, mobile).
 
