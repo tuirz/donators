@@ -82,8 +82,9 @@ Ma mission est donc de créer une page web en utilisant les technologies déjà 
 
 ## Ressources
 
-- [Documentation Strapi](https://docs.strapi.io/dev-docs/intro)
 - [Qu'est-ce qu'une API ?](https://www.redhat.com/fr/topics/api/what-are-application-programming-interfaces)
+- [Consommer une API](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch)
+- [Lien de l'API](https://randomuser.me/api/?results=50)
 
 Des maquettes sont disponibles dans le dossier ```models```, avec un exemple de tri par montant donné, et un exemple de filtrage par genre.
 Libre à vous d'ajouter des options si vous le souhaitez.
