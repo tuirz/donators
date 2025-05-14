@@ -6,10 +6,101 @@
   <title>Donators</title>
   <link href="output.css" rel="stylesheet">
 </head>
-<body>
-  <main>
+<body class="bg-gray-100 min-h-screen font-sans">
 
-  </main>
+    <header class="bg-blue-600 shadow text-center py-6 mb-8">
+    <h1 class="text-3xl md:text-4xl font-bold text-white tracking-wide uppercase">List of Donators</h1>
+  </header>
+  <div class="flex max-w-7xl mx-auto">
+
+    <aside class="w-80 bg-[#3b5c6b] min-h-[calc(100vh-96px)] p-8 text-white hidden md:block rounded-2xl mr-8">
+      <h2 class="text-lg font-semibold mb-8 tracking-wide uppercase">Filters :</h2>
+      <nav class="mb-12">
+        <ul class="space-y-4">
+          <li>
+            <button id="filter-all" class="flex items-center w-full px-5 py-3 rounded-xl hover:bg-blue-500 transition mb-1 text-base font-medium">
+              <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
+                <img src="images/user-2.png" alt="All" class="w-5 h-5">
+              </span>
+              All donators
+            </button>
+          </li>
+          <li>
+            <button id="filter-male" class="flex items-center w-full px-5 py-3 rounded-xl hover:bg-blue-500 transition mb-1 text-base font-medium">
+              <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
+                <img src="images/man.png" alt="Male" class="w-5 h-5">
+              </span>
+              Male donators
+            </button>
+          </li>
+          <li>
+            <button id="filter-female" class="flex items-center w-full px-5 py-3 rounded-xl hover:bg-blue-500 transition text-base font-medium">
+              <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
+                <img src="images/woman.png" alt="Female" class="w-5 h-5">
+              </span>
+              Female donators
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <h2 class="text-lg font-semibold mb-6 tracking-wide uppercase">Sort by :</h2>
+      <nav>
+        <ul class="space-y-4">
+          <li>
+            <button id="sort-amount-asc" class="flex items-center w-full px-5 py-3 rounded-xl hover:bg-blue-500 transition mb-1 text-base font-medium">
+              <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
+                <img src="images/money-bag.png" alt="Amount asc" class="w-5 h-5">
+              </span>
+              Amount ⬆️
+            </button>
+          </li>
+          <li>
+            <button id="sort-amount-desc" class="flex items-center w-full px-5 py-3 rounded-xl hover:bg-blue-500 transition mb-1 text-base font-medium">
+              <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
+                <img src="images/money-bag.png" alt="Amount desc" class="w-5 h-5">
+              </span>
+              Amount ⬇️
+            </button>
+          </li>
+          <li>
+            <button id="sort-name-asc" class="flex items-center w-full px-5 py-3 rounded-xl hover:bg-blue-500 transition mb-1 text-base font-medium">
+              <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
+                <img src="images/alphabet.png" alt="Name asc" class="w-5 h-5">
+              </span>
+              Name (A-Z)
+            </button>
+          </li>
+          <li>
+            <button id="sort-name-desc" class="flex items-center w-full px-5 py-3 rounded-xl hover:bg-blue-500 transition text-base font-medium">
+              <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
+                <img src="images/alphabet-2.png" alt="Name desc" class="w-5 h-5">
+              </span>
+              Name (Z-A)
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="flex-1">
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3" id="donators-list">
+
+        <div class="flex flex-col items-center justify-between bg-white rounded-2xl border border-gray-200 shadow-md p-8 aspect-square max-w-xs mx-auto w-full">
+          <div class="text-green-600 font-bold text-xl mb-2 text-center">320,00&nbsp;€</div>
+          <img src="images/donators.webp" alt="John Doe" class="w-24 h-24 rounded-full object-cover border-2 border-white shadow mb-4">
+          <div class="flex-1 flex flex-col items-center justify-center w-full">
+            <div class="font-bold text-lg text-gray-900 mb-2 text-center">John Doe</div>
+            <div class="flex items-center text-gray-500 text-sm mb-1 w-full justify-center">
+              <span class="truncate">London, <span class="font-semibold">United Kingdom</span></span>
+            </div>
+            <div class="flex items-center text-gray-400 text-sm w-full justify-center">
+              <span class="truncate">+44 123 456 789</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
