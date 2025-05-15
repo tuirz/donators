@@ -1,16 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
     const API_URL = 'https://randomuser.me/api/?results=24&nat=us,gb,ca,au';
     const donatorsList = document.getElementById('donators-list');
+    const searchInput = document.getElementById('search-input');
     let allDonators = [], currentGender = 'all', currentSort = null;
-  
+
     // MATH RANDOM ENTRE 10 & 1000
     const getRandomAmount = () => (Math.random() * 990 + 10).toFixed(2);
     const formatAmount = a => parseFloat(a).toLocaleString('fr-FR', { minimumFractionDigits: 2 }) + ' €';
-  
+
     // APPLIQUE LES FILTRES
     function updateDisplay() {
       let list = allDonators;
       if (currentGender !== 'all') list = list.filter(d => d.gender === currentGender);
+      // RECHERCHE
+      if (searchInput && searchInput.value.trim() !== '') {
+        const q = searchInput.value.trim().toLowerCase();
+        list = list.filter(d => d.name.toLowerCase().includes(q));
+      }
       if (currentSort) {
         const sorters = {
           'amount-asc': (a, b) => a.amount - b.amount,
@@ -36,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       `).join('');
     }
-  
+
     // LISTENERS FILTRES
     ['all', 'male', 'female'].forEach(g =>
       document.getElementById('filter-' + g).onclick = e => {
@@ -52,7 +58,14 @@ document.addEventListener('DOMContentLoaded', () => {
         updateDisplay();
       }
     );
-  
+
+    // LISTENER RECHERCHE
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        updateDisplay();
+      });
+    }
+
     // GENERE DONATEURS AU CHARGEMENT
     fetch(API_URL)
       .then(res => res.json())

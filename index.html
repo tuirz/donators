@@ -11,9 +11,20 @@
     <header class="bg-blue-600 shadow text-center py-6 mb-8">
     <h1 class="text-3xl md:text-4xl font-bold text-white tracking-wide uppercase">List of Donators</h1>
   </header>
+
   <div class="flex max-w-7xl mx-auto">
 
     <aside class="w-80 bg-[#3b5c6b] min-h-[calc(100vh-96px)] p-8 text-white hidden md:block rounded-2xl mr-8">
+      
+      <div class="mb-8">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search by name..."
+          class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        >
+      </div>
+      
       <h2 class="text-lg font-semibold mb-8 tracking-wide uppercase">Filters :</h2>
       <nav class="mb-12">
         <ul class="space-y-4">
@@ -51,7 +62,7 @@
               <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
                 <img src="images/money-bag.png" alt="Amount asc" class="w-5 h-5">
               </span>
-              Amount ⬆️
+              Amount 📈
             </button>
           </li>
           <li>
@@ -59,7 +70,7 @@
               <span class="inline-block w-6 h-6 mr-3 flex items-center justify-center">
                 <img src="images/money-bag.png" alt="Amount desc" class="w-5 h-5">
               </span>
-              Amount ⬇️
+              Amount 📉
             </button>
           </li>
           <li>
