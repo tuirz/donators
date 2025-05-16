@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+  <header class="bg-blue-600 shadow text-center py-6 mb-8 flex items-center justify-between px-8">
+    <h1 class="text-3xl md:text-4xl font-bold text-white tracking-wide uppercase">Dashboard</h1>
+    <a href="index.html" class="bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl px-6 py-3 shadow transition duration-150 focus:outline-none focus:ring-2 focus:ring-green-400">Back to list</a>
+  </header>
+  <main class="flex-1 flex flex-col items-center justify-center p-6 w-full">
+    <div class="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mb-10" id="stats-container">
+      <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center">
+        <div class="text-gray-500 text-base mb-2 font-semibold tracking-wide uppercase">Number of donations</div>
+        <div class="text-5xl font-extrabold text-green-700" id="stat-count">—</div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center">
+        <div class="text-gray-500 text-base mb-2 font-semibold tracking-wide uppercase">Total amount</div>
+        <div class="text-5xl font-extrabold text-green-700" id="stat-total">—</div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center">
+        <div class="text-gray-500 text-base mb-2 font-semibold tracking-wide uppercase">Average donation</div>
+        <div class="text-5xl font-extrabold text-green-700" id="stat-average">—</div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center" id="stat-top">
+        <div class="text-gray-500 text-base mb-2 font-semibold tracking-wide uppercase">Top donator</div>
+        <img class="dashboard-top-img w-20 h-20 rounded-full object-cover border-4 border-green-200 shadow mb-3" src="" alt="">
+        <div class="dashboard-top-name font-bold text-lg text-gray-900 mb-1 text-center"></div>
+        <div class="dashboard-top-amount text-green-600 font-extrabold text-2xl"></div>
+      </div>
+    </div>
+  </main>
+  <script src="dashboard.js"></script>
+</body>
+</html>
